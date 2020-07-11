@@ -46,8 +46,10 @@ body {
   padding: 0;
 }
 
-.content {
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 180px;
+.container {
+  width: 100%;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 20px;
 }
+

@@ -1,20 +1,13 @@
-import React from 'react';
-import './App.css';
-import { SearchBar } from './SearchBar';
+import React, {Component} from "react";
+import "./App.css";
+import BasicRoute from "./BasicRoute";
 
-class App extends React.Component {
+class App extends Component {
 
-  handle = (keyword) => {
-    console.log(keyword);
-  }
+    render() {
+        return (<BasicRoute />);
+    }
 
-  render() {
-    return (
-      <div className='content'>
-        <SearchBar />
-      </div>
-    );
-  }
 }
 
 export default App;

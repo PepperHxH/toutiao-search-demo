@@ -57,7 +57,7 @@ export const SearchBar = () => {
         value={keyword}
         options={options}
         style={{
-          width: 600,
+          width: 700,
         }}
         onSelect={onSelect}
         onSearch={onSearch}
@@ -67,7 +67,7 @@ export const SearchBar = () => {
             size="large" 
             placeholder="input here" 
             onSearch={(keyword) => {handleSearch(keyword)}} 
-            enterButton="search" 
+            enterButton="搜索" 
             />
       </AutoComplete>
     </>
