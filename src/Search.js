@@ -108,7 +108,7 @@ export default class Search extends React.Component {
     if(keyword.length !== 0) {
       this.getListData({
         keyword: keyword,
-        offset: this.state.current-1
+        offset: 0
       });
     }
   };
