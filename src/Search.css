@@ -3,12 +3,28 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-  }
-  
+}
+
 .container {
     width: 100%;
     padding-left: 300px;
     padding-right: 300px;
-    margin-top: 20px;
+    background-color: #f1f2f3;
+    margin-top: 0;
+    padding-top: 20px;
+    min-height: 1000px;
 }
+
+.searchBar {
+  background-color: white;
+}
+
+.tabs {
+    background-color: #f1f2f3;
+}
+
+.list {
+    margin-bottom: 30px;
+}
+
   
